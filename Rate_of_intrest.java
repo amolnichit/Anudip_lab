@@ -21,7 +21,7 @@ public class Rate_of_intrest
 		age=sc.nextInt();
 		System.out.println("Enter your Gender:");
 		gender=sc.next();
-		if(age<60) 
+		if(age>60) 
 		{
 			if(gender.equals("male")) 
 			{
